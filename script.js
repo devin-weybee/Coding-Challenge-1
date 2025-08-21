@@ -20,3 +20,27 @@ document.addEventListener("click", (e) => {
     hamburger.classList.add("fa-bars");
   }
 });
+
+const slider = new A11YSlider(document.querySelector(".slider"), {
+  dots: false,
+  centerMode: true,
+  infinite: true,
+  responsive: {
+    0: {
+      slidesToShow: 1,
+      arrows: true,
+    },
+    480: {
+      sliderToShow: 2,
+      arrows: true,
+    },
+    1240: {
+      arrows: true,
+      slidesToShow: 3,
+    },
+  },
+});
+const prev = document.querySelector(".a11y-slider-prev");
+const next = document.querySelector(".a11y-slider-next");
+prev.innerHTML = "<";
+next.innerHTML = ">";

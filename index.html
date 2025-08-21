@@ -8,10 +8,16 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css"
+    />
+    <title>Find Your Dream Home</title>
   </head>
   <body>
     <div class="container">
+      <!-- Navbar -->
+
       <nav>
         <div class="logo">
           <img src="./images/logo.svg" alt="logo" />
@@ -34,6 +40,7 @@
         </div>
       </nav>
 
+      <!-- Hero Section -->
       <section class="hero-section">
         <div class="right">
           <img src="./images/home1.svg" alt="" />
@@ -45,6 +52,8 @@
           <button class="signup">sign-up</button>
         </div>
       </section>
+
+      <!-- Filter Section -->
 
       <div class="filter">
         <div class="location">
@@ -61,6 +70,8 @@
         </div>
         <button class="signup">sign-up</button>
       </div>
+
+      <!-- Service Section -->
 
       <section class="service">
         <div class="right-text">
@@ -91,6 +102,8 @@
           </div>
         </div>
       </section>
+
+      <!-- Why us -->
 
       <section class="why-us">
         <div class="top-text">
@@ -135,31 +148,252 @@
           </div>
         </div>
       </section>
+
+      <!-- Residence Section -->
+
+      <section class="residence">
+        <div class="residence-head">
+          <h1>Our Popular Residences</h1>
+        </div>
+        <div class="residence-card">
+          <div class="residence-item 1">
+            <div class="img">
+              <img src="./images/sanfransico.svg" alt="" />
+            </div>
+            <div class="content">
+              <div class="residence-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>San Francisco, California</h5>
+              </div>
+              <div class="residence-details">
+                <div class="rooms">
+                  <i class="fa-solid fa-bed"></i>
+                  <h6>4 Rooms</h6>
+                </div>
+                <div class="area">
+                  <i class="fa-solid fa-tape"></i>
+                  <h6>3500 sq. ft.</h6>
+                </div>
+              </div>
+              <div class="residence-rent">
+                <button class="signup">Sign up</button>
+                <h5>$ 2,500,000</h5>
+              </div>
+            </div>
+          </div>
+          <div class="residence-item 2">
+            <div class="img">
+              <img src="./images/baverlyhills.svg" alt="" />
+            </div>
+            <div class="content">
+              <div class="residence-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>Baverly Hills, California</h5>
+              </div>
+              <div class="residence-details">
+                <div class="rooms">
+                  <i class="fa-solid fa-bed"></i>
+                  <h6>3 Rooms</h6>
+                </div>
+                <div class="area">
+                  <i class="fa-solid fa-tape"></i>
+                  <h6>1500 sq. ft.</h6>
+                </div>
+              </div>
+              <div class="residence-rent">
+                <button class="signup">Sign up</button>
+                <h5>$ 850,000</h5>
+              </div>
+            </div>
+          </div>
+          <div class="residence-item 3">
+            <div class="img">
+              <img src="./images/paloalto.svg" alt="" />
+            </div>
+            <div class="content">
+              <div class="residence-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>Palo Alto, California</h5>
+              </div>
+              <div class="residence-details">
+                <div class="rooms">
+                  <i class="fa-solid fa-bed"></i>
+                  <h6>6 Rooms</h6>
+                </div>
+                <div class="area">
+                  <i class="fa-solid fa-tape"></i>
+                  <h6>4000 sq. ft.</h6>
+                </div>
+              </div>
+              <div class="residence-rent">
+                <button class="signup">Sign up</button>
+                <h5>$ 3,700,000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer Section -->
+      <section class="customer">
+        <div class="customer-header container">
+          <h3>What People Say About Dwello</h3>
+        </div>
+        <div class="customer-slider container">
+          <ul class="slider">
+            <li>
+              <div class="slider-content">
+                <img src="./images/people1.svg" alt="people1home" />
+                <div class="customer-wrapper">
+                  <div class="customer-details">
+                    <img src="./images/p1.jpg" alt="customer1" />
+                    <span>
+                      <h3>Sarah Nguyen</h3>
+                      <p>San Francisco</p>
+                    </span>
+                    <span class="star"
+                      ><i class="fa-solid fa-star"></i> 5.0</span
+                    >
+                  </div>
+                  <p>
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="slider-content">
+                <img src="./images/people2.svg" alt="people1home" />
+                <div class="customer-wrapper">
+                  <div class="customer-details">
+                    <img src="./images/p2.jpg" alt="customer1" />
+                    <span>
+                      <h3>Mike Rodriguez</h3>
+                      <p>San Diego</p>
+                    </span>
+                    <span class="star"
+                      ><i class="fa-solid fa-star"></i> 4.5</span
+                    >
+                  </div>
+                  <p>
+                    I had a fantastic experience working with Dwello. Their
+                    expertise and personalized service exceeded my expectations.
+                    I found my dream home quickly and smoothly. Highly
+                    recommended!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="slider-content">
+                <img src="./images/people3.svg" alt="people1home" />
+                <div class="customer-wrapper">
+                  <div class="customer-details">
+                    <img src="./images/p3.jpg" alt="customer1" />
+                    <span>
+                      <h3>Emily Johnson</h3>
+                      <p>Los Angeles</p>
+                    </span>
+                    <span class="star"
+                      ><i class="fa-solid fa-star"></i> 5.0</span
+                    >
+                  </div>
+                  <p>
+                    Dwello made my dream of owning a home a reality! Their team
+                    provided exceptional support and guided me through every
+                    step of the process. I couldn't be happier with my new home!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="slider-content">
+                <img src="./images/people1.svg" alt="people1home" />
+                <div class="customer-wrapper">
+                  <div class="customer-details">
+                    <img src="./images/p1.jpg" alt="customer1" />
+                    <span>
+                      <h3>Sarah Nguyen</h3>
+                      <p>San Francisco</p>
+                    </span>
+                    <span class="star"
+                      ><i class="fa-solid fa-star"></i> 5.0</span
+                    >
+                  </div>
+                  <p>
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Support section -->
+      <section class="question">
+        <h1>Do You Have Any Questions?</h1>
+        <h1>Get Help From Us</h1>
+        <div class="support">
+          <span>
+            <i class="fa-solid fa-check"></i>
+            <h6>Chat live with our support team</h6>
+          </span>
+          <span>
+            <i class="fa-solid fa-check"></i>
+            <h6>Browse Our FAQ</h6>
+          </span>
+        </div>
+        <div class="contact-form">
+          <input type="text" placeholder="Enter Your Email Address" />
+          <button>Submit</button>
+        </div>
+      </section>
     </div>
 
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      const menuBar = document.querySelector(".menu-bar");
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="left-footer">
+        <img src="./images/logo.svg" alt="" />
+        <h5>Bringing you closer to your dream home, one click at a time.</h5>
+      </div>
+      <div class="right-footer">
+        <ul>
+          <li>About</li>
+          <li>Our Story</li>
+          <li>Careers</li>
+          <li>Our Team</li>
+          <li>Resources</li>
+        </ul>
+        <ul>
+          <li>Support</li>
+          <li>FAQ</li>
+          <li>Contact Us</li>
+          <li>Help Center</li>
+          <li>Terms of Service</li>
+        </ul>
+        <ul>
+          <li>Find Us</li>
+          <li>Events</li>
+          <li>Locations</li>
+          <li>Newsletter</li>
+        </ul>
+        <ul>
+          <li>Our Social</li>
+          <li><i class="fa-brands fa-instagram"></i> &nbspInstagram</li>
+          <li><i class="fa-brands fa-square-facebook"></i> &nbsp Facebook</li>
+          <li><i class="fa-brands fa-x-twitter"></i> &nbspTwitter (x)</li>
+        </ul>
+      </div>
+    </section>
 
-      hamburger.addEventListener("click", () => {
-        menuBar.classList.toggle("active");
-
-        if (menuBar.classList.contains("active")) {
-          hamburger.classList.remove("fa-bars");
-          hamburger.classList.add("fa-xmark");
-        } else {
-          hamburger.classList.remove("fa-xmark");
-          hamburger.classList.add("fa-bars");
-        }
-      });
-
-      document.addEventListener("click", (e) => {
-        if (!hamburger.contains(e.target) && !menuBar.contains(e.target)) {
-          menuBar.classList.remove("active");
-          hamburger.classList.remove("fa-xmark");
-          hamburger.classList.add("fa-bars");
-        }
-      });
-    </script>
+    <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
